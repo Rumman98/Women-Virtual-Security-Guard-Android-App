@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/wifi_off"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Internet Connection"
+        android:textSize="25sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please Check Internet Connection"
+        android:textSize="16sp"/>
+    <Button
+        android:id="@+id/retry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:text="Retry"
+        android:layout_margin="40dp"
+        android:textSize="20sp"
+
+        />
+
+
+</LinearLayout>

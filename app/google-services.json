@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "323447312342",
+    "firebase_url": "https://womenvirtual-security-guard.firebaseio.com",
+    "project_id": "womenvirtual-security-guard",
+    "storage_bucket": "womenvirtual-security-guard.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323447312342:android:b1e9ce078555c2441a5e77",
+        "android_client_info": {
+          "package_name": "com.example.womenvirtualsecurityguard"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323447312342-l0qkuj5n3a0c7pp65244pt1i893va4n1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.womenvirtualsecurityguard",
+            "certificate_hash": "61518cd4b3f146470bc1b9573afa78611660f256"
+          }
+        },
+        {
+          "client_id": "323447312342-qvq074d5qtv8iqce0kfecvtpp92d5onp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjsc4IQ_R0MnE8Ew0ONe6i9Vd0XiysLRs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323447312342-qvq074d5qtv8iqce0kfecvtpp92d5onp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

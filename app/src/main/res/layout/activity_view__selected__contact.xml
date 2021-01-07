@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View_Selected_Contact">
+
+    <TextView
+        android:id="@+id/contactName"
+        android:layout_width="261dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginBottom="1dp"
+        android:gravity="center_horizontal"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textColor="#403E3E"
+        android:textColorHighlight="#403E3E"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/contactNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/contactNumber"
+        android:layout_width="261dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_horizontal"
+        android:text="Number"
+        android:textAlignment="center"
+        android:textColor="#403E3E"
+        android:textColorHighlight="#403E3E"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactName"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/contactNumber2"
+        android:layout_width="261dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:layout_marginBottom="7dp"
+        android:gravity="center_horizontal"
+        android:text="Contact Added"
+        android:textAlignment="center"
+        android:textColor="#403E3E"
+        android:textColorHighlight="#403E3E"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/View_addedContact"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        android:textStyle="italic"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="240dp"
+        android:layout_height="214dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginRight="85dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/contactNumber2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactNumber"
+        app:srcCompat="@drawable/check"
+        tools:ignore="VectorDrawableCompat" />
+
+    <Button
+        android:id="@+id/View_addedContact"
+        android:layout_width="293dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="163dp"
+        android:background="@drawable/custombutton"
+        android:fontFamily="sans-serif-black"
+        android:text="Ok"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contactNumber2"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

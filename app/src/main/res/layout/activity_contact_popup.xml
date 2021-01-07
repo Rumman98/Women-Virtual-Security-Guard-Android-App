@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".contact_popup">
+
+
+    <EditText
+        android:id="@+id/search_text"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:drawableStart="@drawable/ic_search"
+        android:drawableLeft="@drawable/ic_search"
+        android:drawablePadding="20dp"
+        android:hint="Search"
+        app:layout_constraintBottom_toTopOf="@+id/contact_recyler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textclose"
+        android:layout_width="35dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custombutton"
+        android:gravity="center"
+        android:text="X"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/search_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/View_addedContact"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/contact_recyler"
+        android:layout_width="335dp"
+        android:layout_height="589dp"
+        android:layout_marginTop="10dp"
+        android:padding="1dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search_text" />
+
+    <Button
+        android:id="@+id/View_addedContact"
+        android:layout_width="292dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/custombutton"
+        android:fontFamily="sans-serif-black"
+        android:text="View Added Contact"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/search_text"
+        app:layout_constraintEnd_toStartOf="@+id/textclose"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
